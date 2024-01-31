@@ -1,0 +1,1 @@
+$$macro_image "Necromancy_CallZombieHorde" "Summon Zombie" "powexec_location me:15 Zombie Horde"$$macro_image "Necromancy_SummonSkeletonWarrior" "Summon Grave Knight" "powexec_location me:15 Grave Knight"$$macro_image "Necromancy_SummonLitch" "Summon Lich" "powexec_location me:15 Lich"

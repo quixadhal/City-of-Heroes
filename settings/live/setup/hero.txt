@@ -1,0 +1,5 @@
+$$wdwload
+$$optionload
+$$bindload
+$$chatload
+$$window_color 36 145 255 216

@@ -1,0 +1,2 @@
+$$macro_image "Flight_CombatFlight" "Fly or Run" "powexec_name Athletic Run$$powexec_name Hover$$powexec_toggleon Prestige Power Surge"
+

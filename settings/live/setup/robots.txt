@@ -1,0 +1,1 @@
+$$macro_image "Robotics_BuildRobotArmy" "Summon Battle Drones" "powexec_location me:15 Battle Drones"$$macro_image "Robotics_ConstructProtectorBot" "Summon Protector Bots" "powexec_location me:15 Protector Bots"$$macro_image "Robotics_AssembleAssaultMech" "Summon Assault Bot" "powexec_location me:15 Assault Bot"

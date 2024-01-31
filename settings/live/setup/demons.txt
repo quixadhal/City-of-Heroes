@@ -1,0 +1,1 @@
+$$macro_image "DemonSummoning_SummonDemonlings" "Summon Demonlings" "powexec_location me:15 summon Demonlings"$$macro_image "DemonSummoning_SummonDemons" "Summon Demons" "powexec_location me:15 summon Demons"$$macro_image "DemonSummoning_SummonDemonPrince" "Summon Demon Prince" "powexec_location me:15 summon Demon Prince"

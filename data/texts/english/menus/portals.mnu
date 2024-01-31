@@ -1,0 +1,13 @@
+//
+Menu "Portals"
+{
+    Title "Portals"
+	Option "OTG &o"					"enterbasefrompasscode 1337OTG-10095"
+	Option "OTG Alt &1"				"enterbasefrompasscode 1337OTG-10150"
+	Divider
+	Option "Sidekick Lounge &s"		"enterbasefrompasscode mythecity-10139"
+	Option "Powers Inc &p"			"enterbasefrompasscode APPLEFRITTER-4548"
+	Divider
+	Option "The Hub &h"				"enterbasefrompasscode hub-6968"
+	Option "Japanese Garden &j"		"enterbasefrompasscode gardens-18790"
+}

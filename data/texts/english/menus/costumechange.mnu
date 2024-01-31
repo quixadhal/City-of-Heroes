@@ -1,0 +1,604 @@
+// Costume Change popmenu
+//
+// Basic                b
+// Ascension            a
+// Epic archetypes      e
+// Holiday              h
+// Incarnate            i
+// aNimal               n
+// Magic                m
+// maRtial Arts         r
+// mUtant               u
+// steamPunk            p
+// super Science        s
+// Vanguard             v
+// unLockables          l
+//
+Menu "CostumeChange"
+{
+    Title "CostumeChange"
+    Menu "Basic &b"
+    {
+        Title "Basic"
+        Menu "Back flip &b"
+        {
+            Title "Back Flip"
+            Divider
+            Option "Slot &0"        "cce 0 CCBackFlip"
+            Option "Slot &1"        "cce 1 CCBackFlip"
+            Option "Slot &2"        "cce 2 CCBackFlip"
+            Option "Slot &3"        "cce 3 CCBackFlip"
+            Option "Slot &4"        "cce 4 CCBackFlip"
+            Option "Slot &5"        "cce 5 CCBackFlip"
+            Option "Slot &6"        "cce 6 CCBackFlip"
+            Option "Slot &7"        "cce 7 CCBackFlip"
+            Option "Slot &8"        "cce 8 CCBackFlip"
+            Option "Slot &9"        "cce 9 CCBackFlip"
+        }
+        Menu "Evil laugh &e"
+        {
+            Title "Evil Laugh"
+            Divider
+            Option "Slot &0"        "cce 0 CCEvilLaugh"
+            Option "Slot &1"        "cce 1 CCEvilLaugh"
+            Option "Slot &2"        "cce 2 CCEvilLaugh"
+            Option "Slot &3"        "cce 3 CCEvilLaugh"
+            Option "Slot &4"        "cce 4 CCEvilLaugh"
+            Option "Slot &5"        "cce 5 CCEvilLaugh"
+            Option "Slot &6"        "cce 6 CCEvilLaugh"
+            Option "Slot &7"        "cce 7 CCEvilLaugh"
+            Option "Slot &8"        "cce 8 CCEvilLaugh"
+            Option "Slot &9"        "cce 9 CCEvilLaugh"
+        }
+        Menu "Howl &h"
+        {
+            Title "Howl"
+            Divider
+            Option "Slot &0"        "cce 0 CCHowl"
+            Option "Slot &1"        "cce 1 CCHowl"
+            Option "Slot &2"        "cce 2 CCHowl"
+            Option "Slot &3"        "cce 3 CCHowl"
+            Option "Slot &4"        "cce 4 CCHowl"
+            Option "Slot &5"        "cce 5 CCHowl"
+            Option "Slot &6"        "cce 6 CCHowl"
+            Option "Slot &7"        "cce 7 CCHowl"
+            Option "Slot &8"        "cce 8 CCHowl"
+            Option "Slot &9"        "cce 9 CCHowl"
+        }
+        Menu "Salute &s"
+        {
+            Title "Salute"
+            Divider
+            Option "Slot &0"        "cce 0 CCSalute"
+            Option "Slot &1"        "cce 1 CCSalute"
+            Option "Slot &2"        "cce 2 CCSalute"
+            Option "Slot &3"        "cce 3 CCSalute"
+            Option "Slot &4"        "cce 4 CCSalute"
+            Option "Slot &5"        "cce 5 CCSalute"
+            Option "Slot &6"        "cce 6 CCSalute"
+            Option "Slot &7"        "cce 7 CCSalute"
+            Option "Slot &8"        "cce 8 CCSalute"
+            Option "Slot &9"        "cce 9 CCSalute"
+        }
+    }
+    Menu "Ascension &a"
+    {
+        Title "Ascension"
+        Menu "Inner will &i"
+        {
+            Title "Inner Will"
+            Divider
+            Option "Slot &0"        "cce 0 CCInnerWill"
+            Option "Slot &1"        "cce 1 CCInnerWill"
+            Option "Slot &2"        "cce 2 CCInnerWill"
+            Option "Slot &3"        "cce 3 CCInnerWill"
+            Option "Slot &4"        "cce 4 CCInnerWill"
+            Option "Slot &5"        "cce 5 CCInnerWill"
+            Option "Slot &6"        "cce 6 CCInnerWill"
+            Option "Slot &7"        "cce 7 CCInnerWill"
+            Option "Slot &8"        "cce 8 CCInnerWill"
+            Option "Slot &9"        "cce 9 CCInnerWill"
+        }
+        Menu "Light magic &l"
+        {
+            Title "Light Magic"
+            Divider
+            Option "Slot &0"        "cce 0 CCLightMagic"
+            Option "Slot &1"        "cce 1 CCLightMagic"
+            Option "Slot &2"        "cce 2 CCLightMagic"
+            Option "Slot &3"        "cce 3 CCLightMagic"
+            Option "Slot &4"        "cce 4 CCLightMagic"
+            Option "Slot &5"        "cce 5 CCLightMagic"
+            Option "Slot &6"        "cce 6 CCLightMagic"
+            Option "Slot &7"        "cce 7 CCLightMagic"
+            Option "Slot &8"        "cce 8 CCLightMagic"
+            Option "Slot &9"        "cce 9 CCLightMagic"
+        }
+        Menu "Rainbow &r"
+        {
+            Title "Rainbow"
+            Divider
+            Option "Slot &0"        "cce 0 CCRainbow"
+            Option "Slot &1"        "cce 1 CCRainbow"
+            Option "Slot &2"        "cce 2 CCRainbow"
+            Option "Slot &3"        "cce 3 CCRainbow"
+            Option "Slot &4"        "cce 4 CCRainbow"
+            Option "Slot &5"        "cce 5 CCRainbow"
+            Option "Slot &6"        "cce 6 CCRainbow"
+            Option "Slot &7"        "cce 7 CCRainbow"
+            Option "Slot &8"        "cce 8 CCRainbow"
+            Option "Slot &9"        "cce 9 CCRainbow"
+        }
+    }
+    Menu "Epic archetypes &e"
+    {
+        Title "Epic Archetypes"
+        Menu "Peacebringer &p"
+        {
+            Title "Peacebringer"
+            Divider
+            Option "Slot &0"        "cce 0 CCPeacebringer"
+            Option "Slot &1"        "cce 1 CCPeacebringer"
+            Option "Slot &2"        "cce 2 CCPeacebringer"
+            Option "Slot &3"        "cce 3 CCPeacebringer"
+            Option "Slot &4"        "cce 4 CCPeacebringer"
+            Option "Slot &5"        "cce 5 CCPeacebringer"
+            Option "Slot &6"        "cce 6 CCPeacebringer"
+            Option "Slot &7"        "cce 7 CCPeacebringer"
+            Option "Slot &8"        "cce 8 CCPeacebringer"
+            Option "Slot &9"        "cce 9 CCPeacebringer"
+        }
+        Menu "Warshade &w"
+        {
+            Title "Warshade"
+            Divider
+            Option "Slot &0"        "cce 0 CCWarshade"
+            Option "Slot &1"        "cce 1 CCWarshade"
+            Option "Slot &2"        "cce 2 CCWarshade"
+            Option "Slot &3"        "cce 3 CCWarshade"
+            Option "Slot &4"        "cce 4 CCWarshade"
+            Option "Slot &5"        "cce 5 CCWarshade"
+            Option "Slot &6"        "cce 6 CCWarshade"
+            Option "Slot &7"        "cce 7 CCWarshade"
+            Option "Slot &8"        "cce 8 CCWarshade"
+            Option "Slot &9"        "cce 9 CCWarshade"
+        }
+    }
+    Menu "Holiday &h"
+    {
+        Title "Holiday Packs"
+        Menu "Confetti throw &c"
+        {
+            Title "Confetti Throw"
+            Divider
+            Option "Slot &0"        "cce 0 CCConfettiThrow"
+            Option "Slot &1"        "cce 1 CCConfettiThrow"
+            Option "Slot &2"        "cce 2 CCConfettiThrow"
+            Option "Slot &3"        "cce 3 CCConfettiThrow"
+            Option "Slot &4"        "cce 4 CCConfettiThrow"
+            Option "Slot &5"        "cce 5 CCConfettiThrow"
+            Option "Slot &6"        "cce 6 CCConfettiThrow"
+            Option "Slot &7"        "cce 7 CCConfettiThrow"
+            Option "Slot &8"        "cce 8 CCConfettiThrow"
+            Option "Slot &9"        "cce 9 CCConfettiThrow"
+        }
+        Menu "Gift burst &g"
+        {
+            Title "Gift Burst"
+            Divider
+            Option "Slot &0"        "cce 0 CCGiftBurst"
+            Option "Slot &1"        "cce 1 CCGiftBurst"
+            Option "Slot &2"        "cce 2 CCGiftBurst"
+            Option "Slot &3"        "cce 3 CCGiftBurst"
+            Option "Slot &4"        "cce 4 CCGiftBurst"
+            Option "Slot &5"        "cce 5 CCGiftBurst"
+            Option "Slot &6"        "cce 6 CCGiftBurst"
+            Option "Slot &7"        "cce 7 CCGiftBurst"
+            Option "Slot &8"        "cce 8 CCGiftBurst"
+            Option "Slot &9"        "cce 9 CCGiftBurst"
+        }
+    }
+    Menu "Incarnate &i"
+    {
+        Title "Incarnate"
+        Menu "Fireworks &f"
+        {
+            Title "Fireworks"
+            Divider
+            Option "Slot &0"        "cce 0 CCFireworks"
+            Option "Slot &1"        "cce 1 CCFireworks"
+            Option "Slot &2"        "cce 2 CCFireworks"
+            Option "Slot &3"        "cce 3 CCFireworks"
+            Option "Slot &4"        "cce 4 CCFireworks"
+            Option "Slot &5"        "cce 5 CCFireworks"
+            Option "Slot &6"        "cce 6 CCFireworks"
+            Option "Slot &7"        "cce 7 CCFireworks"
+            Option "Slot &8"        "cce 8 CCFireworks"
+            Option "Slot &9"        "cce 9 CCFireworks"
+        }
+        Menu "Ice block &i"
+        {
+            Title "Ice Block"
+            Divider
+            Option "Slot &0"        "cce 0 CCIceBlock"
+            Option "Slot &1"        "cce 1 CCIceBlock"
+            Option "Slot &2"        "cce 2 CCIceBlock"
+            Option "Slot &3"        "cce 3 CCIceBlock"
+            Option "Slot &4"        "cce 4 CCIceBlock"
+            Option "Slot &5"        "cce 5 CCIceBlock"
+            Option "Slot &6"        "cce 6 CCIceBlock"
+            Option "Slot &7"        "cce 7 CCIceBlock"
+            Option "Slot &8"        "cce 8 CCIceBlock"
+            Option "Slot &9"        "cce 9 CCIceBlock"
+        }
+        Menu "Nuke &n"
+        {
+            Title "Nuke"
+            Divider
+            Option "Slot &0"        "cce 0 CCNuke"
+            Option "Slot &1"        "cce 1 CCNuke"
+            Option "Slot &2"        "cce 2 CCNuke"
+            Option "Slot &3"        "cce 3 CCNuke"
+            Option "Slot &4"        "cce 4 CCNuke"
+            Option "Slot &5"        "cce 5 CCNuke"
+            Option "Slot &6"        "cce 6 CCNuke"
+            Option "Slot &7"        "cce 7 CCNuke"
+            Option "Slot &8"        "cce 8 CCNuke"
+            Option "Slot &9"        "cce 9 CCNuke"
+        }
+        Menu "pure Energy &e"
+        {
+            Title "Pure Energy"
+            Divider
+            Option "Slot &0"        "cce 0 CCPureEnergy"
+            Option "Slot &1"        "cce 1 CCPureEnergy"
+            Option "Slot &2"        "cce 2 CCPureEnergy"
+            Option "Slot &3"        "cce 3 CCPureEnergy"
+            Option "Slot &4"        "cce 4 CCPureEnergy"
+            Option "Slot &5"        "cce 5 CCPureEnergy"
+            Option "Slot &6"        "cce 6 CCPureEnergy"
+            Option "Slot &7"        "cce 7 CCPureEnergy"
+            Option "Slot &8"        "cce 8 CCPureEnergy"
+            Option "Slot &9"        "cce 9 CCPureEnergy"
+        }
+        Menu "Stone block &s"
+        {
+            Title "Stone Block"
+            Divider
+            Option "Slot &0"        "cce 0 CCStoneBlock"
+            Option "Slot &1"        "cce 1 CCStoneBlock"
+            Option "Slot &2"        "cce 2 CCStoneBlock"
+            Option "Slot &3"        "cce 3 CCStoneBlock"
+            Option "Slot &4"        "cce 4 CCStoneBlock"
+            Option "Slot &5"        "cce 5 CCStoneBlock"
+            Option "Slot &6"        "cce 6 CCStoneBlock"
+            Option "Slot &7"        "cce 7 CCStoneBlock"
+            Option "Slot &8"        "cce 8 CCStoneBlock"
+            Option "Slot &9"        "cce 9 CCStoneBlock"
+        }
+    }
+    Menu "aNimal &n"
+    {
+        Title "Animal Pack"
+        Menu "Feather &f"
+        {
+            Menu "Burst &b"
+            {
+                Title "Feather Burst"
+                Divider
+                Option "Slot &0"        "cce 0 CCFeatherBurst"
+                Option "Slot &1"        "cce 1 CCFeatherBurst"
+                Option "Slot &2"        "cce 2 CCFeatherBurst"
+                Option "Slot &3"        "cce 3 CCFeatherBurst"
+                Option "Slot &4"        "cce 4 CCFeatherBurst"
+                Option "Slot &5"        "cce 5 CCFeatherBurst"
+                Option "Slot &6"        "cce 6 CCFeatherBurst"
+                Option "Slot &7"        "cce 7 CCFeatherBurst"
+                Option "Slot &8"        "cce 8 CCFeatherBurst"
+                Option "Slot &9"        "cce 9 CCFeatherBurst"
+            }
+            Menu "Spin &s"
+            {
+                Title "Feather Spin"
+                Divider
+                Option "Slot &0"        "cce 0 CCFeatherSpin"
+                Option "Slot &1"        "cce 1 CCFeatherSpin"
+                Option "Slot &2"        "cce 2 CCFeatherSpin"
+                Option "Slot &3"        "cce 3 CCFeatherSpin"
+                Option "Slot &4"        "cce 4 CCFeatherSpin"
+                Option "Slot &5"        "cce 5 CCFeatherSpin"
+                Option "Slot &6"        "cce 6 CCFeatherSpin"
+                Option "Slot &7"        "cce 7 CCFeatherSpin"
+                Option "Slot &8"        "cce 8 CCFeatherSpin"
+                Option "Slot &9"        "cce 9 CCFeatherSpin"
+            }
+        }
+        Menu "fUr &u"
+        {
+            Title "Fur"
+            Menu "Burst &b"
+            {
+                Title "Fur Burst"
+                Divider
+                Option "Slot &0"        "cce 0 CCFurBurst"
+                Option "Slot &1"        "cce 1 CCFurBurst"
+                Option "Slot &2"        "cce 2 CCFurBurst"
+                Option "Slot &3"        "cce 3 CCFurBurst"
+                Option "Slot &4"        "cce 4 CCFurBurst"
+                Option "Slot &5"        "cce 5 CCFurBurst"
+                Option "Slot &6"        "cce 6 CCFurBurst"
+                Option "Slot &7"        "cce 7 CCFurBurst"
+                Option "Slot &8"        "cce 8 CCFurBurst"
+                Option "Slot &9"        "cce 9 CCFurBurst"
+            }
+            Menu "Spin &s"
+            {
+                Title "Fur Spin"
+                Divider
+                Option "Slot &0"        "cce 0 CCFurSpin"
+                Option "Slot &1"        "cce 1 CCFurSpin"
+                Option "Slot &2"        "cce 2 CCFurSpin"
+                Option "Slot &3"        "cce 3 CCFurSpin"
+                Option "Slot &4"        "cce 4 CCFurSpin"
+                Option "Slot &5"        "cce 5 CCFurSpin"
+                Option "Slot &6"        "cce 6 CCFurSpin"
+                Option "Slot &7"        "cce 7 CCFurSpin"
+                Option "Slot &8"        "cce 8 CCFurSpin"
+                Option "Slot &9"        "cce 9 CCFurSpin"
+            }
+        }
+    }
+    Menu "Magic &m"
+    {
+        Title "Magic Pack"
+        Menu "Lightning &l"
+        {
+            Title "Lightning"
+            Divider
+            Option "Slot &0"        "cce 0 CCLightning"
+            Option "Slot &1"        "cce 1 CCLightning"
+            Option "Slot &2"        "cce 2 CCLightning"
+            Option "Slot &3"        "cce 3 CCLightning"
+            Option "Slot &4"        "cce 4 CCLightning"
+            Option "Slot &5"        "cce 5 CCLightning"
+            Option "Slot &6"        "cce 6 CCLightning"
+            Option "Slot &7"        "cce 7 CCLightning"
+            Option "Slot &8"        "cce 8 CCLightning"
+            Option "Slot &9"        "cce 9 CCLightning"
+        }
+        Menu "Presto chango &p"
+        {
+            Title "Presto Chango"
+            Divider
+            Option "Slot &0"        "cce 0 CCPrestoChango"
+            Option "Slot &1"        "cce 1 CCPrestoChango"
+            Option "Slot &2"        "cce 2 CCPrestoChango"
+            Option "Slot &3"        "cce 3 CCPrestoChango"
+            Option "Slot &4"        "cce 4 CCPrestoChango"
+            Option "Slot &5"        "cce 5 CCPrestoChango"
+            Option "Slot &6"        "cce 6 CCPrestoChango"
+            Option "Slot &7"        "cce 7 CCPrestoChango"
+            Option "Slot &8"        "cce 8 CCPrestoChango"
+            Option "Slot &9"        "cce 9 CCPrestoChango"
+        }
+        Menu "spell Cast &c"
+        {
+            Title "Spell Cast"
+            Divider
+            Option "Slot &0"        "cce 0 CCCast"
+            Option "Slot &1"        "cce 1 CCCast"
+            Option "Slot &2"        "cce 2 CCCast"
+            Option "Slot &3"        "cce 3 CCCast"
+            Option "Slot &4"        "cce 4 CCCast"
+            Option "Slot &5"        "cce 5 CCCast"
+            Option "Slot &6"        "cce 6 CCCast"
+            Option "Slot &7"        "cce 7 CCCast"
+            Option "Slot &8"        "cce 8 CCCast"
+            Option "Slot &9"        "cce 9 CCCast"
+        }
+        Menu "Spin &s"
+        {
+            Title "Spin"
+            Divider
+            Option "Slot &0"        "cce 0 CCSpin"
+            Option "Slot &1"        "cce 1 CCSpin"
+            Option "Slot &2"        "cce 2 CCSpin"
+            Option "Slot &3"        "cce 3 CCSpin"
+            Option "Slot &4"        "cce 4 CCSpin"
+            Option "Slot &5"        "cce 5 CCSpin"
+            Option "Slot &6"        "cce 6 CCSpin"
+            Option "Slot &7"        "cce 7 CCSpin"
+            Option "Slot &8"        "cce 8 CCSpin"
+            Option "Slot &9"        "cce 9 CCSpin"
+        }
+    }
+    Menu "maRtial arts &r"
+    {
+        Title "Martial Arts Pack"
+        Menu "Ninja leap &n"
+        {
+            Title "Ninja Leap"
+            Divider
+            Option "Slot &0"        "cce 0 CCNinjaLeap"
+            Option "Slot &1"        "cce 1 CCNinjaLeap"
+            Option "Slot &2"        "cce 2 CCNinjaLeap"
+            Option "Slot &3"        "cce 3 CCNinjaLeap"
+            Option "Slot &4"        "cce 4 CCNinjaLeap"
+            Option "Slot &5"        "cce 5 CCNinjaLeap"
+            Option "Slot &6"        "cce 6 CCNinjaLeap"
+            Option "Slot &7"        "cce 7 CCNinjaLeap"
+            Option "Slot &8"        "cce 8 CCNinjaLeap"
+            Option "Slot &9"        "cce 9 CCNinjaLeap"
+        }
+        Menu "Smoke Bomb &s"
+        {
+            Title "Smoke Bomb"
+            Divider
+            Option "Slot &0"        "cce 0 CCSmokeBomb"
+            Option "Slot &1"        "cce 1 CCSmokeBomb"
+            Option "Slot &2"        "cce 2 CCSmokeBomb"
+            Option "Slot &3"        "cce 3 CCSmokeBomb"
+            Option "Slot &4"        "cce 4 CCSmokeBomb"
+            Option "Slot &5"        "cce 5 CCSmokeBomb"
+            Option "Slot &6"        "cce 6 CCSmokeBomb"
+            Option "Slot &7"        "cce 7 CCSmokeBomb"
+            Option "Slot &8"        "cce 8 CCSmokeBomb"
+            Option "Slot &9"        "cce 9 CCSmokeBomb"
+        }
+    }
+    Menu "mUtant &u"
+    {
+        Title "Mutant Pack"
+        Menu "Dimension shift &d"
+        {
+            Title "Dimension Shift"
+            Divider
+            Option "Slot &0"        "cce 0 CCDimensionShift"
+            Option "Slot &1"        "cce 1 CCDimensionShift"
+            Option "Slot &2"        "cce 2 CCDimensionShift"
+            Option "Slot &3"        "cce 3 CCDimensionShift"
+            Option "Slot &4"        "cce 4 CCDimensionShift"
+            Option "Slot &5"        "cce 5 CCDimensionShift"
+            Option "Slot &6"        "cce 6 CCDimensionShift"
+            Option "Slot &7"        "cce 7 CCDimensionShift"
+            Option "Slot &8"        "cce 8 CCDimensionShift"
+            Option "Slot &9"        "cce 9 CCDimensionShift"
+        }
+        Menu "Energy morph &e"
+        {
+            Title "Energy Morph"
+            Divider
+            Option "Slot &0"        "cce 0 CCEnergyMorph"
+            Option "Slot &1"        "cce 1 CCEnergyMorph"
+            Option "Slot &2"        "cce 2 CCEnergyMorph"
+            Option "Slot &3"        "cce 3 CCEnergyMorph"
+            Option "Slot &4"        "cce 4 CCEnergyMorph"
+            Option "Slot &5"        "cce 5 CCEnergyMorph"
+            Option "Slot &6"        "cce 6 CCEnergyMorph"
+            Option "Slot &7"        "cce 7 CCEnergyMorph"
+            Option "Slot &8"        "cce 8 CCEnergyMorph"
+            Option "Slot &9"        "cce 9 CCEnergyMorph"
+        }
+        Menu "rapid Boil &b"
+        {
+            Title "Rapid Boil"
+            Divider
+            Option "Slot &0"        "cce 0 CCRapidBoil"
+            Option "Slot &1"        "cce 1 CCRapidBoil"
+            Option "Slot &2"        "cce 2 CCRapidBoil"
+            Option "Slot &3"        "cce 3 CCRapidBoil"
+            Option "Slot &4"        "cce 4 CCRapidBoil"
+            Option "Slot &5"        "cce 5 CCRapidBoil"
+            Option "Slot &6"        "cce 6 CCRapidBoil"
+            Option "Slot &7"        "cce 7 CCRapidBoil"
+            Option "Slot &8"        "cce 8 CCRapidBoil"
+            Option "Slot &9"        "cce 9 CCRapidBoil"
+        }
+    }
+    Menu "steamPunk &p"
+    {
+        Title "SteamPunk Pack"
+        Menu "Oil strike &o"
+        {
+            Title "Oil Strike"
+            Divider
+            Option "Slot &0"        "cce 0 CCoilstrike"
+            Option "Slot &1"        "cce 1 CCoilstrike"
+            Option "Slot &2"        "cce 2 CCoilstrike"
+            Option "Slot &3"        "cce 3 CCoilstrike"
+            Option "Slot &4"        "cce 4 CCoilstrike"
+            Option "Slot &5"        "cce 5 CCoilstrike"
+            Option "Slot &6"        "cce 6 CCoilstrike"
+            Option "Slot &7"        "cce 7 CCoilstrike"
+            Option "Slot &8"        "cce 8 CCoilstrike"
+            Option "Slot &9"        "cce 9 CCoilstrike"
+        }
+        Menu "Pressure release &p"
+        {
+            Title "Pressure Release"
+            Divider
+            Option "Slot &0"        "cce 0 CCpressurerelease"
+            Option "Slot &1"        "cce 1 CCpressurerelease"
+            Option "Slot &2"        "cce 2 CCpressurerelease"
+            Option "Slot &3"        "cce 3 CCpressurerelease"
+            Option "Slot &4"        "cce 4 CCpressurerelease"
+            Option "Slot &5"        "cce 5 CCpressurerelease"
+            Option "Slot &6"        "cce 6 CCpressurerelease"
+            Option "Slot &7"        "cce 7 CCpressurerelease"
+            Option "Slot &8"        "cce 8 CCpressurerelease"
+            Option "Slot &9"        "cce 9 CCpressurerelease"
+        }
+    }
+    Menu "super Science &s"
+    {
+        Title "Super Science Pack"
+        Menu "Drink formula &d"
+        {
+            Title "Drink Formula"
+            Divider
+            Option "Slot &0"        "cce 0 CCDrinkFormula"
+            Option "Slot &1"        "cce 1 CCDrinkFormula"
+            Option "Slot &2"        "cce 2 CCDrinkFormula"
+            Option "Slot &3"        "cce 3 CCDrinkFormula"
+            Option "Slot &4"        "cce 4 CCDrinkFormula"
+            Option "Slot &5"        "cce 5 CCDrinkFormula"
+            Option "Slot &6"        "cce 6 CCDrinkFormula"
+            Option "Slot &7"        "cce 7 CCDrinkFormula"
+            Option "Slot &8"        "cce 8 CCDrinkFormula"
+            Option "Slot &9"        "cce 9 CCDrinkFormula"
+        }
+        Menu "Super Serum &s"
+        {
+            Title "Super Serum"
+            Divider
+            Option "Slot &0"        "cce 0 CCSuperSerum"
+            Option "Slot &1"        "cce 1 CCSuperSerum"
+            Option "Slot &2"        "cce 2 CCSuperSerum"
+            Option "Slot &3"        "cce 3 CCSuperSerum"
+            Option "Slot &4"        "cce 4 CCSuperSerum"
+            Option "Slot &5"        "cce 5 CCSuperSerum"
+            Option "Slot &6"        "cce 6 CCSuperSerum"
+            Option "Slot &7"        "cce 7 CCSuperSerum"
+            Option "Slot &8"        "cce 8 CCSuperSerum"
+            Option "Slot &9"        "cce 9 CCSuperSerum"
+        }
+    }
+    Menu "Vanguard &v"
+    {
+        Title "Vanguard Pack"
+        Menu "Vanguard sigil &v"
+        {
+            Title "Vanguard Sigil"
+            Divider
+            Option "Slot &0"        "cce 0 CCVanguardSigil"
+            Option "Slot &1"        "cce 1 CCVanguardSigil"
+            Option "Slot &2"        "cce 2 CCVanguardSigil"
+            Option "Slot &3"        "cce 3 CCVanguardSigil"
+            Option "Slot &4"        "cce 4 CCVanguardSigil"
+            Option "Slot &5"        "cce 5 CCVanguardSigil"
+            Option "Slot &6"        "cce 6 CCVanguardSigil"
+            Option "Slot &7"        "cce 7 CCVanguardSigil"
+            Option "Slot &8"        "cce 8 CCVanguardSigil"
+            Option "Slot &9"        "cce 9 CCVanguardSigil"
+        }
+    }
+    Menu "unLockables &l"
+    {
+        Title "Unlockables"
+        Menu "Murder of Crows &m"
+        {
+            Title "Murder of Crows"
+            Divider
+            Option "Slot &0"        "cce 0 CCMurderOfCrows"
+            Option "Slot &1"        "cce 1 CCMurderOfCrows"
+            Option "Slot &2"        "cce 2 CCMurderOfCrows"
+            Option "Slot &3"        "cce 3 CCMurderOfCrows"
+            Option "Slot &4"        "cce 4 CCMurderOfCrows"
+            Option "Slot &5"        "cce 5 CCMurderOfCrows"
+            Option "Slot &6"        "cce 6 CCMurderOfCrows"
+            Option "Slot &7"        "cce 7 CCMurderOfCrows"
+            Option "Slot &8"        "cce 8 CCMurderOfCrows"
+            Option "Slot &9"        "cce 9 CCMurderOfCrows"
+        }
+    }
+}

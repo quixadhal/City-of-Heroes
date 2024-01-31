@@ -1,0 +1,151 @@
+//
+// The files this uses load from <install dir>\settings\live\
+// but because you can't use quotes inside the menu option command to protect multi-word pathnames,
+// It's best to just put them there instead of keeping them with the popmenu files.
+//
+Menu "Setup"
+{
+	Title "Setup"
+	Divider
+	Option "Generic &g" "bind_load_file setup\generic.txt"
+	Menu "Setup UI &u"
+	{
+		Title "UI Setup"
+		Divider
+		Option "Hero &h" "bind_load_file_silent setup\hero.txt"
+		Option "Villain &v" "bind_load_file_silent setup\villain.txt"
+		Option "Praetorian &p" "bind_load_file_silent setup\praetorian.txt"
+	}
+	Menu "Travel Power &t"
+	{
+		Title "Travel Setup"
+		Divider
+		Menu "Mystic Flight &f"
+		{
+			Title "Mystic Flight"
+			Divider
+			Menu "Athletic Run &a"
+			{
+				Title "Athletic Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\fas.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\far.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\fad.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\faq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\fau.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\fal.txt"
+			}
+			Menu "Beast Run &b"
+			{
+				Title "Beast Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\fbs.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\fbr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\fbd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\fbq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\fbu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\fbl.txt"
+			}
+			Menu "Ninja Run &n"
+			{
+				Title "Ninja Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\fns.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\fnr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\fnd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\fnq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\fnu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\fnl.txt"
+			}
+		}
+		Menu "Super Jump &j"
+		{
+			Title "Super Jump"
+			Divider
+			Menu "Athletic Run &a"
+			{
+				Title "Athletic Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\jas.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\jar.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\jad.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\jaq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\jau.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\jal.txt"
+			}
+			Menu "Beast Run &b"
+			{
+				Title "Beast Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\jbs.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\jbr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\jbd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\jbq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\jbu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\jbl.txt"
+			}
+			Menu "Ninja Run &n"
+			{
+				Title "Ninja Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\jns.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\jnr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\jnd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\jnq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\jnu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\jnl.txt"
+			}
+		}
+		Menu "Super Speed &s"
+		{
+			Title "Super Speed"
+			Divider
+			Menu "Athletic Run &a"
+			{
+				Title "Athletic Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\sas.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\sar.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\sad.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\saq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\sau.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\sal.txt"
+			}
+			Menu "Beast Run &b"
+			{
+				Title "Beast Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\sbs.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\sbr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\sbd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\sbq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\sbu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\sbl.txt"
+			}
+			Menu "Ninja Run &n"
+			{
+				Title "Ninja Run"
+				Divider
+				Option "Sprint &s" "bind_load_file setup\travel\sns.txt"
+				Option "Prestige Power Rush &r" "bind_load_file setup\travel\snr.txt"
+				Option "Prestige Power Dash &d" "bind_load_file setup\travel\snd.txt"
+				Option "Prestige Power Quick &q" "bind_load_file setup\travel\snq.txt"
+				Option "Prestige Power sUrge &u" "bind_load_file setup\travel\snu.txt"
+				Option "Prestige Power sLide &l" "bind_load_file setup\travel\snl.txt"
+			}
+		}
+	}
+	Divider
+    Menu "Masterminds &m"
+    {
+        Title "Masterminds"
+		Divider
+		Option "Generic &g" "bind_load_file setup\mastermind.txt"
+		Divider
+        Option "Demons &d" "bind_load_file setup\demons.txt"
+        Option "Robots &r" "bind_load_file setup\robots.txt"
+        Option "Beasts &b" "bind_load_file setup\beasts.txt"
+        Option "Necromancy &n" "bind_load_file setup\necro.txt"
+        Option "Thugs &t" "bind_load_file setup\thugs.txt"
+    }
+}

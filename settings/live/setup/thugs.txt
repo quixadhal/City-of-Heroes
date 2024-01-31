@@ -1,0 +1,3 @@
+$$macro_image "Thugs_HirePosse" "Call Thugs" "powexec_location me:15 Call Thugs"
+$$macro_image "Thugs_EnlistLieutenant" "Call Enforcer" "powexec_location me:15 Call Enforcer"
+$$macro_image "Thugs_EnlistBoss" "Call Bruiser" "powexec_location me:15 Call Bruiser"

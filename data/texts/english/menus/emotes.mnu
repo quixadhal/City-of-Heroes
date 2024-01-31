@@ -1,0 +1,90 @@
+//
+Menu Emotes
+{
+	Title Emotes
+	Divider
+
+	Menu "Boombox &b"
+	{
+		Option "Altitude &a" "em BBAltitude"
+		Option "Beat &" "em BBBeat"
+		Option "Catch Me &c" "em BBCatchMe"
+		Menu "D... &d"
+		{
+			Option "Dance &a" "em BBDance"
+			Option "Disco Freak &i" "em BBDiscoFreak"
+			Option "Dog Walk &o" "em BBDogWalk"		
+		}
+		Option "Electro Vibe &e" "em BBElectroVibe"
+		Option "Heavy Dude &h" "em BBHeavyDude"
+		Option "Info Overlord &i" "em BBInfoOverload
+		Option "Jumpy &j" "em BBJumpy"
+		Option "Kick It &k" "em BBKickIt"
+		Option "Looker &l" "em BBLooker"
+		Menu "M... &m"
+		{
+			Option "Meaty &e" "em BBMeaty"
+			Option "Move On &o" "em BBMoveOn"
+		}
+		Option "Notorious &n" "em BBNotorious"
+		Option "Peace &p" "em BBPeace"
+		Option "Quickie &q" "em BBQuickie"
+		Option "Raver &r" "em BBRaver"
+		Menu "S... &s"
+		{
+			Option "Shuffle &h" "em BBShuffle"
+			Option "Spaz &p" "em BBSpaz"
+		}
+		Option "Technoid &t" "em BBTechnoid"
+		Option "Venus &v" "em BBVenus"
+		Menu "W... &w"
+		{
+			Option "Wind It Up &i" "em BBWindItUp"
+			Option "Wah Wah &a" "em BBWahWah"
+		}
+		Option "Yellow &y" "em BBYellow"
+	}
+
+	Menu "Dance &d"
+	{
+		Option "Random Dance &." "em Dance"
+		Option "Elbows &e" "em Dance1"
+		Option "Fists &f" "em Dance2"
+		Option "Lame &l" "em Dance3"
+		Option "Wave &w" "em dance4"
+		Option "Jumping &j" "em Dance5"
+		Option "Monkey &m" "em Dance6"
+		Option "Robot &r" "em robotdance"
+		Option "Karate &k" "em karatedance"
+		Option "Pop &p" "em popdance"
+		Option "Air Guitar &a" "em airguitar"
+		Menu "D... &d"
+		{
+			Option "Disco &i" "em discodance"
+			Option "Drum &r" "em drumdance"
+		}
+	}
+
+	Menu "Exercise &e"
+	{
+		Option "Jumping Jacks &j" "em jumpingjacks"
+		Option "Martial Arts &m" "em martialarts"
+		Option "Pushups &p" "em pushup"
+		Option "Out of Breath &o" "em catchbreath"
+		Option "Collapse &c" "em swoon"
+	}
+	
+	Option "Flashlight &f" "em flashlight"
+	Option "Innertube &i" "em innertube"
+	
+	Menu "Juggle &j"
+	{
+		Option "Magic &m" "em jugglemagic"
+		Option "Fire &f" "em jugglefire"
+		Option "Electricity &e" "em juggleelectricity"
+		Option "Balls &b" "em juggle"
+	}
+
+	Option "Torch &t" "em holdtorch"
+	Option "Yoga &y" "em yoga"
+}

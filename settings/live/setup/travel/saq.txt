@@ -1,0 +1,1 @@
+$$macro_image "SuperSpeed_SuperSpeed" "Fly or Run" "powexec_name Athletic Run$$powexec_name Super Speed$$powexec_toggleon Prestige Power Quick"

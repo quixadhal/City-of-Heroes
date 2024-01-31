@@ -1,0 +1,1 @@
+$$macro_image "SorceryPool_MysticFlight" "Fly or Run" "powexec_name Beast Run$$powexec_name Mystic Flight$$powexec_toggleon Prestige Power Quick"

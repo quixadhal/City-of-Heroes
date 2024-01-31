@@ -1,0 +1,1 @@
+$$macro_image "Jump_LongJump" "Fly or Run" "powexec_name Beast Run$$powexec_name Super Jump$$powexec_toggleon Prestige Power Surge"

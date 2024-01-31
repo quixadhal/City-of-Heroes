@@ -1,0 +1,1 @@
+$$macro_image "BeastMastery_SummonWolves" "Summon Wolves" "powexec_location me:15 Summon Wolves"$$macro_image "BeastMastery_SummonLions" "Summon Lions" "powexec_location me:15 Summon Lions"$$macro_image "BeastMastery_SummonDireWolves" "Summon Dire Wolves" "powexec_location me:15 Summon Dire Wolves"
