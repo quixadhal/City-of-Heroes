@@ -1,0 +1,1 @@
+$$macro_image "Inherent_ShieldOscillatorPet" "Summon Shield Oscillator" "powexec_location me:15 Pet: Shield Oscillator"

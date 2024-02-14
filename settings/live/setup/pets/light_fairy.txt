@@ -1,0 +1,1 @@
+$$macro_image "Inherent_LightFairyPet" "Summon Light Fairy" "powexec_location me:15 Pet: Light Fairy"

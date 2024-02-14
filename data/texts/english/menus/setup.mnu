@@ -16,6 +16,29 @@ Menu "Setup"
 		Option "Villain &v" "bind_load_file_silent setup\villain.txt"
 		Option "Praetorian &p" "bind_load_file_silent setup\praetorian.txt"
 	}
+	Menu "p2w Pet &p"
+	{
+		Title "Pet Macro"
+		Divider
+		Menu "Power &p"
+		{
+			Title "Power"
+			Divider
+			Option "Dark Fairy &f" "bind_load_file_silent setup\pets\dark_fairy.txt"
+			Option "Red Wisp &w" "bind_load_file_silent setup\pets\red_wisp.txt"
+			Option "Power Drone &d" "bind_load_file_silent setup\pets\power_drone.txt"
+			Option "Power Oscillator &o" "bind_load_file_silent setup\pets\power_oscillator.txt"
+		}
+		Menu "Shield &s"
+		{
+			Title "Shield"
+			Divider
+			Option "Light Fairy &f" "bind_load_file_silent setup\pets\light_fairy.txt"
+			Option "Blue Wisp &w" "bind_load_file_silent setup\pets\blue_wisp.txt"
+			Option "Shield Drone &d" "bind_load_file_silent setup\pets\shield_drone.txt"
+			Option "Shield Oscillator &o" "bind_load_file_silent setup\pets\shield_oscillator.txt"
+		}
+	}
 	Menu "Travel Power &t"
 	{
 		Title "Travel Setup"

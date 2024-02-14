@@ -1,0 +1,1 @@
+$$macro_image "Inherent_BlueWispPet" "Summon Blue Wisp" "powexec_location me:15 Pet: Blue Wisp"

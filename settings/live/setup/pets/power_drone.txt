@@ -1,0 +1,1 @@
+$$macro_image "Inherent_PowerDronePet" "Summon Power Drone" "powexec_location me:15 Pet: Power Drone"

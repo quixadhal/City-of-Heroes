@@ -1,0 +1,1 @@
+$$macro_image "Inherent_PowerOscillatorPet" "Summon Power Oscillator" "powexec_location me:15 Pet: Power Oscillator"
